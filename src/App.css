@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Nunito, sans-serif;
+  /* background: #0059ff; */
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+#quote-box {
+  background: #fff;
+  width: 40rem;
+  margin: 10rem auto;
+  padding: 3rem;
+  border-radius: 15px;
+}
+
+#text {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  /* transition-property: color;
+  transition-duration: 2s; */
+}
+
+#author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1rem;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.social-media {
+  display: flex;
+  transition: all 0.3s ease;
+}
+
+.social-media > a {
+  margin-right: 0.5rem;
+  /* background: #5372f0; */
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.bi-volume-up {
+  margin-right: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  /* background-color: #5372f0; */
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.social-media > a:hover,
+i:hover {
+  opacity: 0.7;
+  color: #fff;
+}
+.social-media > a img {
+  width: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* #new-quote {
+  background: #0059ff;
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+} */
+
+#new-quote:hover {
+  opacity: 0.7;
+  background-color: bisque;
+}
